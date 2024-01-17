@@ -1,0 +1,233 @@
+body{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head_div{
+    background-color: white;
+    display: flex;
+    box-shadow: 0px 1px 8px rgb(225, 224, 224);
+}
+.title{
+
+    font-size: 300%;
+    color: rgb(57, 164, 251);
+
+}
+.navigation{
+    margin-top: auto;
+    margin-left: 2%;
+    background-color: white;
+    
+    width: 70%;
+}
+ul{
+    background-color: transparent;
+    display: flex;
+    
+    
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 3px;
+    border-right: 2px solid black;
+    width: 10%;
+    text-align: center;
+}
+:hover.list{
+    background-color: whitesmoke;
+    text-shadow: 2px 3px 5px gray;
+    
+}
+
+/* products */
+.body_div{
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    
+    
+}
+.product_about{
+    background:white;
+    width: 60%;
+
+}
+
+.image_back{
+    border-radius: 10px;
+    height: 250px;
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+    background-color: white;
+    box-shadow: 0px 3px 8px rgb(225, 224, 224);
+
+}
+.mid_img{
+    
+    background-color: gray;
+    width: 50%;
+    margin: auto;
+    
+    
+}
+
+.img{
+    width: 100%;
+    height: 90%;
+}
+ /* details */
+.details{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.brand{
+   color: rgb(38, 95, 250);
+}
+
+.price{
+    display: flex;
+}
+.cut_price{
+    color: red;
+    text-decoration: line-through;
+}
+
+.sell_price{
+    font-size: 50px;
+}
+
+.detail_div{
+    display: flex;
+    margin-left: 2%;
+}
+
+.atribute1{
+    background-color: whitesmoke;
+    width: 15%;
+
+}
+.d_b{
+    cursor: pointer;
+   
+}
+
+.order{
+    border-right: none;
+}
+.button{
+    width: 30%;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: rgb(69, 158, 247);
+    color: black;
+    cursor: pointer;
+    margin-top: 4%;
+    float: right;
+    border: none;
+    margin-right: 2%;
+    font-size: medium;
+}
+
+:hover.button{
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+/* Product Div */
+.products_div{
+    background-color: white;
+    margin-left: 1%;
+    width: 39%;
+    
+}
+
+.box_pro{
+    display: flex;
+    background-color: white;
+    margin: auto;
+    margin-top: 2%;
+    height: 150px;
+    width: 95%;
+    
+    border-radius: 5px;
+    box-shadow: 0px 1px 8px rgb(213, 212, 212);
+}
+:hover.box_pro{
+    width: 96%;
+}
+.box_img{
+    background-color: white;
+    width: 70%;
+    margin-left: 5px;
+    
+    
+}
+
+.b_img{
+    width: 100%;
+    height: 90%;
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
+
+.data_pro{
+    margin-left: 10px;
+}
+
+.Pro_name{
+    border-right: none;
+    font-size: 15px;
+}
+.Pro_name:hover{
+    color: rgb(65, 64, 65);
+
+}
+.sell_price_sug{
+    font-size: 35px;
+}
+.scroll{
+    overflow-y: scroll;
+    height: 750px;
+    
+}
+
+.end{
+    color: dodgerblue;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(41, 41, 41);
+}
+
+.mid{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.mid h1{
+    font-size: 60px
+}
+
+.mid label{
+    color: rgb(131, 130, 130);
+}
+.mid li a{
+    background-color: black;
+
+    color: dodgerblue;
+
+}
+
+.mid li{
+    margin-top: 10%;
+    list-style: none;
+    text-decoration: none;
+}

@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Book My PC</title>
+        <link rel="stylesheet" href="Order.css">
+    </head>
+    <body>
+        <div class="forms">
+            <form method="post" name="google-sheet">
+                <label class="title"> Book <br>
+                    <b>My PC</b></label>
+                        <br>
+                        <br>
+                <input type="Name" placeholder="Name" class="i_p" id="fname" name="Name" required>
+                <br>
+                <input type="text" placeholder="Product _Code" class="i_p" id="Product_code" name="Code" required><br> 
+                <input type="text" placeholder="Contact" class="i_p" id="Contact" name="Contacts"> <br>
+                <input type="Email" placeholder="Email" class="i_p" id="Email" name="E-mail" required> <br>
+                <input type="number" placeholder="Quantity" class="i_p" id="qnt" name="Quantity" required> <br>
+                <a href="terms_Conditions.html">Terms & Conditions</a><br>
+                <input type="checkbox" name="Agree"><label> I'm Read all Terms & Conditions.I'm Agree with terms and Conditions of Book my PC. </label>
+                    <br>
+                <button type="submit" class="submit" value="submit" name="Confirm">submit</button>
+            </form>
+
+        </div>
+
+        <script>
+            const scriptURL =
+            'https://script.google.com/macros/s/AKfycbwbpNJ-qGt5uexHkJgoDdZAU6al9g7AlO4qfwnvUXKFAHz6EsyVbhYHsoeZRNWz2xBjVg/exec'
+            const form = document.forms ['google-sheet']
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch (scriptURL, { method: 'POST', body: new FormData (form) })
+            .then(response => alert("Thank You... \n your Order is Confirmed we will Contact you shortly...!")) .catch(error => console.error('Error!', error.message))
+            })
+            </script>
+
+    </body>
+</html>

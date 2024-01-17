@@ -1,0 +1,58 @@
+body{
+    /* background: linear-gradient(to bottom right,white,white, dodgerblue); */
+    background-color: #4070f4;
+}
+.forms{
+    
+    box-shadow: 0px 3px 8px;
+    background-color: white;
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+
+}
+
+
+.title{
+
+    font-size: 300%;
+    color: dodgerblue;
+
+}
+.i_p{
+    background-color: whitesmoke;
+    border-radius: 2px;
+    margin-top: 6px;
+    height: 35px;
+    width: 50%;
+    border: none;
+    
+}
+
+:hover.i_p{
+
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 3px;
+}
+
+
+.submit{
+    margin-top: 10px;
+    height: 40px;
+    background-color: transparent;
+    width: 20%;
+    color: black;
+    font-size: medium;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all 2.0sec ease;
+    cursor: pointer;
+}
+:hover.submit{
+    background-color: dodgerblue;
+    color: white;
+}

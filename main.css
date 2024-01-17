@@ -1,0 +1,231 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Navigation */
+.back{
+    width: 100%;
+    height: 605px;
+    
+}
+.log_nav{
+    position: absolute;
+     top: 8px;
+    left: 5%;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background:linear-gradient(to left,rgb(7, 92, 189),rgb(26, 26, 26));
+}
+
+.logo{
+    width: 30%;
+    text-align: center;
+}
+.logo img{
+    width: 30%;
+    height: 100%;
+}
+.nav{
+    width: 70%;
+    
+    
+}
+ul{
+    display: inline-flex;
+    float: right;
+    
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* title image */
+
+.divide{
+    
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    font-size: 500%;
+    color: white;
+}
+.button{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+}
+:hover .button{
+    background-color: white;
+    color: black;
+}
+
+/* Products */
+.products{
+    height: 700px;
+}
+
+.Product_Cat{
+  
+    height: 600px;
+    width: 100%;
+    margin: auto;
+}
+.name{
+    text-transform: uppercase;
+    text-align: center;
+}
+.box_product{
+    height: 40%;
+    width: 90%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-color: white;
+   
+    width: 33%;
+    height: 90%;
+    margin-left: 8px;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0px 1px 8px rgb(225, 224, 224);
+
+   
+}
+:hover.box{
+    box-shadow: 0px 1px 8px rgb(200, 198, 198);
+    
+}
+.Pro_img{
+    margin: auto;
+    width: 60%;
+    height: 60%;
+}
+.cut_price{
+    color: red;
+    text-decoration: line-through;
+}
+.buy{
+    background-color: transparent;
+    color: black;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+    width: 50%;
+    height: 15%;
+    text-transform: uppercase;
+    margin-top: 2%;
+    
+}
+:hover.buy{
+    background-color: dodgerblue;
+    color: white;
+    
+}
+
+.notice{
+    text-align: center;
+}
+.continue{
+    width: 20%;
+    height: 5%;
+    text-transform: uppercase;
+    font-size: medium;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+
+}
+:hover.continue{
+    background-color: dodgerblue;
+    color: white;
+    
+}
+/* help and support */
+.back{
+    
+    background-color: rgb(51, 55, 72);
+
+}
+.name1{
+   
+    color: rgb(202, 200, 200);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.parts{
+    display: flex;
+    background-color: dodgerblue;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    box-shadow: 2px 3px 5px black;
+
+}
+.part1{
+    margin-top: 5%;
+    color: antiquewhite;
+    margin-left: 15px;
+}
+.text{
+    color: white;
+}
+.part2{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.detial{
+   
+    margin: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    
+    text-align: center;
+    
+}
+
+/* Links */
+.links{
+    background-color: rgb(46, 71, 100);
+    color: rgb(185, 180, 180);
+    height: 200px;
+    
+}
+.intro{
+    color: rgb(219, 216, 216);
+}
+.links_data{
+   
+    width: 80%;
+    margin: auto;
+    display: flex;
+   
+}
+.links1 a{
+    color: rgb(202, 200, 200);
+}
+.links1{
+    margin-left: 2%;
+}
+
+.Property{
+   
+    text-align: center;
+    margin-top: 3%;
+}
